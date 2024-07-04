@@ -3,6 +3,7 @@
 # Required
 URL = "https://www.timeanddate.com/weather/India/{city}"
 DB = "WeatherDB.db"
+STATUS_CODE_OK = 200
 # Errors
 STATUS_CODE_ERROR = "Not Able to Fetch URL Return with Status Code: {status_code}"
 SQL_EXECUTION_ERROR = "SQL Execution Failed Check Status: {err}"

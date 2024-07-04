@@ -2,7 +2,7 @@
 JustDial: Query Based Scrapping using sqlite Database to Store Data and CSV File for Better Data Understanding"""
 
 from requests import get
-from constant import STATUS_CODE_ERROR
+from constant import STATUS_CODE_ERROR, STATUS_CODE_OK
 from scrapping import DataScrap
 from utils import get_request_url, RequestError
 
@@ -15,7 +15,7 @@ def main() -> None:
     print("Welcome to Scrapping Project Please Enter Country Code and City Name")
     city = input("Enter City Name: ")
     page = get(get_request_url(city))
-    if page.status_code == 200:
+    if page.status_code == STATUS_CODE_OK:
         scrap_obj = DataScrap(page, city)
         scrap_obj.scrap_filter_data()
     else:
