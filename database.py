@@ -2,7 +2,7 @@
 
 from sqlite3 import connect, ProgrammingError, OperationalError
 from utils import SqlExecutionError
-from constant import DB, SQL_EXECUTION_ERROR, CREATE_TABLE, INSERT_2_TABLE
+from constant import DB, SQL_EXECUTION_ERROR, CREATE_TABLE, INSERT_2_TABLE, DB_OK
 
 
 class WeatherDatabase:
@@ -35,7 +35,7 @@ class WeatherDatabase:
         try:
             self.cursor.execute(INSERT_2_TABLE, weather_data)
             self.db.commit()
-            print("Data Insertion Completed Check Database Table")
+            print(DB_OK)
         except (ProgrammingError, OperationalError) as sql_error:
             print(SqlExecutionError(SQL_EXECUTION_ERROR.format(err=sql_error)))
             return

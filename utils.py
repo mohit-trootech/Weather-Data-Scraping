@@ -5,6 +5,13 @@ import re
 from constant import URL
 
 
+class CsvFileNotExists(BaseException):
+    """Custom class for CSV File Not Found"""
+
+    def __init__(self, msg):
+        super(CsvFileNotExists, self).__init__(msg)
+
+
 class SqlExecutionError(BaseException):
     """Custom class for SQL Exception"""
 
