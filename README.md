@@ -21,7 +21,7 @@ easier than ever to retrieve data from the web efficiently and effectively.
 
 ## Documentation Reference
 
-- [Website Used For Scrapping(https://www.timeanddate.com/)
+- [Website Used For Scrapping](https://www.timeanddate.com/)
 - [GitHub README](https://github.com/mohit-trootech/Weather-Data-Scraping)
 - [Data Scrapping](https://www.cloudflare.com/en-gb/learning/bots/what-is-data-scraping/)
 - [Beautiful Soup](https://pypi.org/project/beautifulsoup4/)
