@@ -1,3 +1,4 @@
 __pycache__
 .idea
 WeatherDB.db
+weather.csv

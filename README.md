@@ -2,9 +2,12 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-Web scraping, the process of extracting data from websites, has emerged as a powerful technique to gather information from the vast expanse of the internet.
-In this tutorial, we’ll explore various Python libraries and modules commonly used for web scraping and delve into why Python 3 is the preferred choice for this task.
-The latest version of Python, offers a rich set of tools and libraries specifically designed for web scraping, making it easier than ever to retrieve data from the web efficiently and effectively.
+Web scraping, the process of extracting data from websites, has emerged as a powerful technique to gather information
+from the vast expanse of the internet.
+In this tutorial, we’ll explore various Python libraries and modules commonly used for web scraping and delve into why
+Python 3 is the preferred choice for this task.
+The latest version of Python, offers a rich set of tools and libraries specifically designed for web scraping, making it
+easier than ever to retrieve data from the web efficiently and effectively.
 
 > Python Data-Scraping Libraries & Modules- requests, BeautifulSoup, Urllib, html5lib.
 
@@ -14,6 +17,7 @@ The latest version of Python, offers a rich set of tools and libraries specifica
 - if the requested data is available continue else, data not available Error.
 - after successfull scraping clean the required data using tags, classes, and ids.
 - after cleaning insert the data into database using sqlite3 module.
+- Update Code base to Create Insert and Read CSV for Respective Scraped Data.
 
 ## Documentation Reference
 
